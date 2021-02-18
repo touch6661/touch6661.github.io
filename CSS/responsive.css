@@ -13,6 +13,7 @@
         margin: 1.45%;
     }
 
+
     #articles{
         width: 60%;
         
@@ -34,3 +35,160 @@
 
 }
 
+@media(max-width:720px){
+
+    #cards{
+
+        margin-left: 22px;
+    }
+    .card .description{
+
+        font-size: 15px;
+    }
+
+    .card .icon{
+
+        font-size: 35px;
+
+    }
+
+    .card .category{
+
+        font-size: 17px;
+    }
+
+    #banner{
+
+        margin-left: 22px;
+        width: 90%;
+    }
+
+    #banner h1{
+
+        font-size: 32px;
+        margin-left: 30px;
+        margin-top: 34px;
+    }
+
+    .wrap{
+
+        width: 100%;
+    
+    }
+
+    #menu{
+
+        height: 69px;
+
+    }
+
+    #lateral{
+
+        margin-right: 37px;
+        width: 30%;
+    }
+
+    aside h3{
+       
+        height: 35px;
+        font-size: 25px;
+        line-height: 40px;
+        
+    }
+
+    .aside-box{
+        width: 90%;
+
+    }
+
+    #login input[type="submit"], #login input[type="button"], #login input[type="reset"], #login button {
+
+        width: 70px;
+        height: 25px;
+
+    }
+
+    #login a{
+        font-size: 11px;
+    }
+
+    #login input[type="email"], #login input[type="password"] {
+        width: 75%;
+
+    }
+
+    #lateral input[type="button"]{
+        font-size: 13px;
+        padding-left: 2px;
+    }
+
+    #articles{
+
+        width: 48%;
+
+    }
+
+    #articles article{
+        width: 110%;
+        margin-left: 32px;
+    }
+
+    #articles h2{
+        width: 116%;
+        font-size: 31px;
+        height: 50px;
+        line-height: 58px;
+        margin-left: 32px;
+    }
+
+    #articles .data{
+
+        font-size: 11px;
+        
+
+    }
+
+    #articles article h4{
+
+        font-size: 12px;
+    }
+
+    #articles article p{
+        font-size: 14px;
+        padding-top: 8px;
+    }
+
+    /*.wrap{
+
+        margin: 0px;
+    }*/
+    #footer .wrap > div{
+
+        width: 22%;
+    }
+
+    #footer h5{
+        height: 37px;
+        font-size: 20px;
+        line-height: 40px;
+    
+    }
+
+    #footer #info #pie{
+
+        font-size: 11px;
+    }
+    
+
+
+    #footer #info #test{
+        margin-left: -51px;
+    }
+
+    #footer ul{
+
+        font-size: 20px;
+        margin-top: 17px;
+    }
+
+}
